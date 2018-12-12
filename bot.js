@@ -4,7 +4,7 @@ const Util = require('discord.js');
 
 client.on('message', msg => {
 
-    if (msg.content == '$join') {
+    if (msg.content == 'Ejoin') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
@@ -15,7 +15,7 @@ client.on('message', msg => {
 })
 ---------------------
 client.on('ready', () => { //code bot not leave room voice //Bot Is Online
-    client.channels.get("ايدي الروم").join(); //by : Toxic Codes
+    client.channels.get("522143677217374218").join(); //by : Toxic Codes
     });
 
 client.login(process.env.BOT_TOKEN);
